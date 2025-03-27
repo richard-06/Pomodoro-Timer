@@ -3,7 +3,8 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  server:{
+   base: '/pomodoro-timer/', 
+   server:{
     port:3200,
     open:true
   },
